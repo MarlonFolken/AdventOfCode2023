@@ -16,7 +16,7 @@ export default function Home() {
                 width={16}
                 height={16}
               />
-            Trebuchet?!
+            Challenge 01
           </Link>
         </li>
       </ol>

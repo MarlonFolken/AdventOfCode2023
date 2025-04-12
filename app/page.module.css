@@ -1,4 +1,6 @@
 .page {
+  --warm-bg: hsl(212, 100%, 96%);
+
   --gray-rgb: 0, 0, 0;
   --gray-alpha-200: rgba(var(--gray-rgb), 0.08);
   --gray-alpha-100: rgba(var(--gray-rgb), 0.05);
@@ -7,12 +9,12 @@
   --button-secondary-hover: #f2f2f2;
 
   display: grid;
-  grid-template-rows: 20px 1fr 20px;
+  grid-template-rows: [index]1fr [title]1fr [explanation]2fr [user-input]2fr [solution]1fr;
   align-items: center;
   justify-items: center;
   min-height: 100svh;
-  padding: 80px;
-  gap: 64px;
+  padding: 30px 50px;
+  gap: 10px;
   font-family: var(--font-geist-sans);
 }
 
